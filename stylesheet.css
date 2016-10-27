@@ -37,6 +37,7 @@ h3 {
 }
 
 h4 {
+   font-size: 20px;    
    margin-bottom: 25px;
    font-weight: 400;
    font-style: normal;
@@ -75,6 +76,7 @@ div.content {
 }
 
 h5 {
+   font-size: 16px;     
    margin: 0px 0px 25px 0px;
    font-family: "Josefin Slab";
    font-weight: 700;
@@ -108,8 +110,8 @@ p {
 }
 .container {
     width: 90%;
-    margin: auto;
-    padding-top: 2em;
+    margin: 0 auto;
+    padding: ;
 }
 
 
@@ -117,18 +119,19 @@ p {
 
 @media (min-width: 678px),
     only screen and (min-width: 700px) and (orientation: landscape){
-      .container {
-        width: 80%;
-        margin: 0 auto;
-        padding-top: 2em; 
-    }    
+ .container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2em;
+}       
         
         
 }
 
 @media (min-width: 1025px) {
     .container {
-        width: 60%;
+        max-width: 1150px;
+        width: 70%;
         margin: 0 auto;
         padding-top: 2em;
     }    
