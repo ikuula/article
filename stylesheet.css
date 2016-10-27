@@ -117,7 +117,11 @@ p {
 
 @media (min-width: 678px),
     only screen and (min-width: 700px) and (orientation: landscape){
-        
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 2em; 
+    }    
         
         
 }
@@ -126,6 +130,7 @@ p {
     .container {
         width: 60%;
         margin: 0 auto;
+        padding-top: 2em;
     }    
     
 }
